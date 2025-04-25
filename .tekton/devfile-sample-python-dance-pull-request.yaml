@@ -426,7 +426,8 @@ spec:
     - name: workspace
     - name: git-auth
       optional: true
-  taskRunTemplate: {}
+  taskRunTemplate:
+    serviceAccountName: build-pipeline-devfile-sample-python-dance
   workspaces:
   - name: workspace
     volumeClaimTemplate:
